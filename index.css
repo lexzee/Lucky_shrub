@@ -69,3 +69,12 @@ div p{
   margin-top: 0;
   padding-top: .5rem;
 }
+
+a:hover, a:focus{
+  color: green;
+  transition: ease-in;
+}
+.info:hover{
+  transform: scale(1.01);
+  box-shadow: .1em .1em .5em black;
+}
