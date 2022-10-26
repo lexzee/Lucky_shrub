@@ -17,14 +17,14 @@ header > img{
 main img{
   max-width: 100%;
 }
-#hero{
+/*#hero{
   background: url("/img/promo.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 15rem;
   border-radius: 1rem;
-}
+}*/
 .promo{
   width: 100%;
   border-radius: 1rem;
@@ -93,4 +93,20 @@ div p{
 .info:hover{
   transform: scale(1.01);
   box-shadow: .1em .1em .5em black;
+}
+
+@media (max-width: 950px) and (orientation: portrait){
+  section{
+    display: inline-grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    margin: 0;
+  }
+  .info{
+    margin-top: 0;
+    padding: 3rem;
+  }
+  .info p{
+    margin-bottom: 4rem;
+  }
 }
