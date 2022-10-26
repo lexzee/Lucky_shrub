@@ -44,6 +44,7 @@ nav a{
   color: white;
   font-size: 100%;
   margin-left: 2rem;
+  margin-inline-start: 0rem;
 }
 section{
   display: flex;
@@ -52,7 +53,7 @@ section{
   box-sizing: content-box;
   flex: 1;
   background: #d1a6ec;
-  margin: .5rem;
+  gap: 2rem 1rem;
   border-radius: 1rem;
   padding: .5rem 2%;
 }
